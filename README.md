@@ -1,11 +1,13 @@
 # TERMO-no-console
 Você já ouviu falar no jogo TERMO, ou até mesmo Wordle? Isso mesmo! Esses exatos mesmos jogos totalmente programados em C, aonde o usuário tem contato diretamente pelo console.
 
-#include <stdio.h>
-#include <string.h>
+Acertando a letra, aparecerá "*". Caso a letra pertença a palavra mas está no lugar errado, aparecerá "+". Se a letra não estiver contida na palavra, continuará aparecendo "_".
 
-int main() {
-    printf("Bem vindo ao ZimmerWord! Estou pensando em uma palavra de 5 letras, você terá 6 tentativas para adivinhar qual é. Boa sorte!\n\n\n");
+    #include <stdio.h>
+    #include <string.h>
+    
+    int main() {
+        printf("Bem vindo ao ZimmerWord! Estou pensando em uma palavra de 5 letras, você terá 6 tentativas para adivinhar qual é. Boa sorte!\n\n\n");
 
     char palavra[6] = "fotos";
     char tentativa[6];
@@ -52,4 +54,4 @@ int main() {
     }
 
     return 0;
-}
+    }
