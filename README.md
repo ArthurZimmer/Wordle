@@ -1,1 +1,3 @@
-Made by zimmer ")
+Executable in releases
+
+made by Zimmer ")
